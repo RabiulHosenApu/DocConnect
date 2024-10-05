@@ -4,7 +4,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 import HomeScreen from "../screens/HomeScreen";
 import LoginScreen from "../screens/LoginScreen";
 import SignUpScreen from "../screens/SignUpScreen";
-import CalendarScreen from "../screens/CalendarScreen";
+import CameraScreen from "../screens/CameraScreen";
 import SearchScreen from "../screens/SearchScreen";
 import DoctorDetailScreen from "../screens/DoctorDetailScreen";
 import ServiceBookingScreen from "../screens/ServiceBookingScreen";
@@ -113,8 +113,8 @@ function HomeStack() {
             />
 
             <Stack.Screen
-                name="CalendarScreen"
-                component={CalendarScreen}
+                name="CameraScreen"
+                component={CameraScreen}
                 options={{ headerShown: false }}
             />
             <Stack.Screen
@@ -218,8 +218,8 @@ export default Navigation = () => {
                     options={{ tabBarButton: customTabButton }}
                 />
                 <Tab.Screen
-                    name="My Appointments"
-                    component={getTabScreen(CalendarScreen, AuthStack)}
+                    name="Camera"
+                    component={getTabScreen(CameraScreen, AuthStack)}
                 />
                 <Tab.Screen
                     name="Profile"

@@ -10,7 +10,7 @@ import {
 import { colors, sizes } from "../styles/Theme";
 import { Animated } from "react-native";
 
-const CARD_WIDTH = sizes.width - 100;
+const CARD_WIDTH = sizes.width - 150;
 const CARD_HEIGHT = 180;
 
 export const CardCarousel = ({ list, onSelectCategory }) => {
@@ -93,7 +93,8 @@ const styles = StyleSheet.create({
     },
     category_image: {
         flex: 1,
-        resizeMode: "contain",
+        width:210,
+        resizeMode: "contain"
     },
     title_box: {
         left: 24,

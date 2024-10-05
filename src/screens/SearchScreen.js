@@ -199,7 +199,7 @@ export default function SearchScreen({ navigation, route }) {
                         />
                     </View>
 
-                    <View style={styles.category_container}>
+                    {/* <View style={styles.category_container}>
                         <FlatList
                             horizontal
                             showsHorizontalScrollIndicator={false}
@@ -209,7 +209,7 @@ export default function SearchScreen({ navigation, route }) {
                             keyExtractor={(category) => category.name}
                             renderItem={renderCategory}
                         />
-                    </View>
+                    </View> */}
 
                     <View style={styles.list_container}>
                         <FlatList

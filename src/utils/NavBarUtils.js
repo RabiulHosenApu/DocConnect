@@ -12,8 +12,8 @@ const iconPref = ({ route }) => {
                 iconName = "home";
             } else if (route.name === "Profile") {
                 iconName = "user";
-            } else if (route.name === "My Appointments") {
-                iconName = "calendar";
+            } else if (route.name === "Camera") {
+                iconName = "camera";
             } else if (route.name === "Search") {
                 iconName = "search";
             }
